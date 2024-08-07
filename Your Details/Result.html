@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My eCommerce Website</title>
+    <link rel="stylesheet" href="Result.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu desktop-menu">
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Home.html">Home</a></li>
+            </ul>
+            <div class="logo">
+                <a href="Home.html">
+                    <img src="L5.png" alt="Logo">
+                </a>
+            </div>
+            <ul class="menu mobile-menu">
+                <li><a href="Quizz.html">Quizz</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+<!---------------------------------------------hero section skin type ------------------------------------------------>
+    <section class="hero" data-aos="fade-up">
+        <h2>Your Skin Type: <span id="skin-type"></span></h2>
+    </section>
+<!------------------------------------------------- morning routine ----------------------------------------------------->
+    <section class="routine" id="morning-routine" data-aos="fade-up">
+        <h3>Your Morning Routine</h3>
+        <p>Repeat Daily</p>
+        <div class="products" id="morning-products">
+            <!-- Product cards will be appended here -->
+        </div>
+    </section>
+<!--------------------------------------------------night routine------------------------------------------------------->
+    <section class="routine" id="night-routine" data-aos="fade-up">
+        <h3>Your Night Routine</h3>
+        <p>Skin Cycling</p>
+        <div class="products" id="night-products">
+            <!-- Product cards will be appended here -->
+        </div>
+    </section>
+<!---------------------------------------------------How do we age ------------------------------------------------------->
+<section class="info" id="how-do-we-age" data-aos="fade-up">
+    <section class="expert-section" data-aos="fade-up">
+        <div class="expert-container">
+            <div class="expert-video" data-aos="zoom-in">
+                <video controls>
+                    <source src="VR2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="expert-content">
+                <h3 data-aos="fade-right">How do we Age?</h3>
+                <p data-aos="fade-right">Invest in yourself Now!</p>
+                <p data-aos="fade-right">Beauty comes in all shapes, colors, and sizes... but healthy, glowing, youthful skin and body are often a foundation of self-confidence and self-care. Also, of course, everyone is different, and one’s needs change over time. I’ve found that a tailored and evidence-based approach often yields the best results (Watch The Video).</p>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------supplements---------------------------------------------------------->
+    <div class="products aging-products" data-aos="fade-up">
+        <div class="aging-product-container">
+            <div class="aging-product-card product-card" data-aos="flip-left">
+                <img src="B.png" alt="Aging Product 1">
+                <div class="aging-product-details">
+                    <p>PRIMROSE</p>
+                </div>   
+            </div>
+            <a href="https://iherb.co/HdY9cq4P"><button class="product-button">ADD TO CART</button></a>  
+        </div>
+       
+    
+        
+        <div class="aging-product-container">
+            <div class="aging-product-card product-card" data-aos="flip-left">
+                <img src="a3.png" alt="Aging Product 3">
+                <div class="aging-product-details">   
+                    <p>SPIRULINA</p>
+                </div>
+            </div>
+            <a href="https://iherb.co/f7NRquQN"><button class="product-button">ADD TO CART</button></a>
+        </div>
+        
+        <div class="aging-product-container">
+            <div class="aging-product-card product-card" data-aos="flip-left">
+                <img src="a4.png" alt="Aging Product 4">
+                <div class="aging-product-details">
+                    <p> Vitamin D</p>
+                </div>
+            </div>
+            <a href="https://iherb.co/NTcWPAnW"><button class="product-button">ADD TO CART</button></a>
+        </div>
+        
+        <div class="aging-product-container">
+            <div class="aging-product-card product-card" data-aos="flip-left">
+                <img src="a5.png" alt="Aging Product 5">
+                <div class="aging-product-details">
+                 <p>Collagen</p>
+                </div>
+            </div>
+            <a href="https://iherb.co/ZLuFfzKx"><button class="product-button">ADD TO CART</button></a>
+        </div>
+    </div>
+      
+
+<footer data-aos="fade-up">
+    <p>&copy; 2024 Your Skincare Routine. All rights reserved.</p>
+    <p>Follow us on 
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>, 
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>, 
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script src="Result.js"></script>
+   
+</body>
+</html>

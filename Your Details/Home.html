@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My eCommerce Website</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="popup" id="language-popup">
+        <div class="popup-content">
+            <h2>Choose Your Language</h2>
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('ar')">العربية</button>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="test4.html">Home</a></li>
+            </ul>
+            <div class="logo">
+                <a href="test4.html">
+                    <img src="L5.png" alt="Logo">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="Quizz.html">Quizz</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="v2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <button class="cta-button" onclick="startQuiz()"> Start Now</button>
+        </div>
+    </section>
+
+    <script src="Home.js"></script>
+    
+</body>
+</html>
